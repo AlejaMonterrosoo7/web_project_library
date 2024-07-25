@@ -321,16 +321,13 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 40px;
 }
 
 .step {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  padding: 20px;
-  width: 220px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -351,11 +348,11 @@
 }
 
 .footer {
-  background-color: #000;
-  color: white;
-  padding: 80px 60px;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 60px 80px;
   justify-content: space-between;
-  align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -377,6 +374,7 @@
 
 .footer__column_content_social {
   margin-right: auto;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -405,7 +403,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  gap: 10px;
 }
 
 .footer__social-icon {
